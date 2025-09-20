@@ -1,0 +1,200 @@
+formulas:
+  task_status: tags.filter(value.startsWith('data/task-note/status'))[0].replace('data/task-note/status/', '')
+  tags: file.tags.filter(!value.startsWith('#data/') && value != '#task-note')
+  project_size: file.tags.filter(value.startsWith('#task/project/'))[0].replace('#task/project/', '')
+  task_list_type: tags.filter(value.startsWith('task-list/'))[0].replace('task-list/', '')
+properties:
+  formula.task_status:
+    displayName: task status
+  formula.project_size:
+    displayName: project size
+  formula.task_list_type:
+    displayName: task list type
+views:
+  - type: table
+    name: All Task Notes
+    filters:
+      and:
+        - file.tags.containsAll("task-note")
+        - /task-\d{4}\d{2}\d{2}/.matches(file.basename)
+        - file.ext == "md"
+    order:
+      - file.name
+      - task_created
+      - formula.task_status
+      - formula.project_size
+      - formula.tags
+      - task_worked_on_dates
+      - links
+      - file.backlinks
+    sort:
+      - property: task_created
+        direction: DESC
+    columnSize:
+      file.name: 426
+      note.task_created: 191
+      formula.task_status: 115
+      formula.tags: 356
+      note.task_worked_on_dates: 223
+      note.links: 281
+    rowHeight: medium
+  - type: table
+    name: Created Today
+    filters:
+      and:
+        - file.tags.containsAll("task-note")
+        - /task-\d{4}\d{2}\d{2}/.matches(file.basename)
+        - file.ext == "md"
+        - task_created >= now().date()
+    order:
+      - file.name
+      - task_created
+      - formula.task_status
+      - formula.project_size
+      - formula.tags
+      - task_worked_on_dates
+      - links
+      - file.backlinks
+    sort:
+      - property: task_created
+        direction: DESC
+    columnSize:
+      file.name: 426
+      formula.task_status: 115
+      note.task_created: 191
+      formula.tags: 356
+      note.task_worked_on_dates: 223
+      note.links: 241
+    rowHeight: medium
+  - type: table
+    name: To Do & In Progress
+    filters:
+      and:
+        - file.tags.containsAll("task-note")
+        - /task-\d{4}\d{2}\d{2}/.matches(file.basename)
+        - file.ext == "md"
+        - or:
+            - formula.task_status == "todo"
+            - formula.task_status == "in-progress"
+    order:
+      - file.name
+      - task_created
+      - formula.task_status
+      - formula.project_size
+      - formula.tags
+      - task_worked_on_dates
+      - links
+      - file.backlinks
+    sort:
+      - property: formula.task_status
+        direction: ASC
+      - property: task_created
+        direction: DESC
+    columnSize:
+      file.name: 426
+      formula.task_status: 115
+      note.task_created: 191
+      formula.tags: 356
+      note.task_worked_on_dates: 223
+      note.links: 241
+    rowHeight: medium
+  - type: table
+    name: Blocked
+    filters:
+      and:
+        - file.tags.containsAll("task-note")
+        - /task-\d{4}\d{2}\d{2}/.matches(file.basename)
+        - file.ext == "md"
+        - formula.task_status == "blocked"
+    order:
+      - file.name
+      - task_created
+      - formula.task_status
+      - formula.project_size
+      - formula.tags
+      - task_worked_on_dates
+      - links
+      - file.backlinks
+    sort:
+      - property: task_created
+        direction: DESC
+      - property: formula.project size
+        direction: DESC
+    columnSize:
+      file.name: 426
+      formula.task_status: 115
+      note.task_created: 191
+      formula.tags: 356
+      note.task_worked_on_dates: 223
+      note.links: 241
+    rowHeight: medium
+  - type: table
+    name: Completed
+    filters:
+      and:
+        - file.tags.containsAll("task-note")
+        - /task-\d{4}\d{2}\d{2}/.matches(file.basename)
+        - file.ext == "md"
+        - formula.task_status == "completed"
+    order:
+      - file.name
+      - task_created
+      - task_completed
+      - formula.project_size
+      - formula.tags
+      - task_worked_on_dates
+      - links
+      - file.backlinks
+    sort:
+      - property: task_created
+        direction: DESC
+    columnSize:
+      file.name: 426
+      formula.task_status: 115
+      note.task_created: 191
+      formula.tags: 356
+      note.task_worked_on_dates: 223
+      note.links: 241
+    rowHeight: medium
+  - type: table
+    name: Postponed & Abandoned
+    filters:
+      and:
+        - file.tags.containsAll("task-note")
+        - /task-\d{4}\d{2}\d{2}/.matches(file.basename)
+        - file.ext == "md"
+        - or:
+            - formula.task_status == "postponed"
+            - formula.task_status == "abandoned"
+    order:
+      - file.name
+      - task_created
+      - formula.task_status
+      - formula.project_size
+      - formula.tags
+      - task_worked_on_dates
+      - links
+      - file.backlinks
+    sort:
+      - property: task_status
+        direction: DESC
+      - property: task_created
+        direction: DESC
+    columnSize:
+      file.name: 426
+      formula.task_status: 115
+      note.task_created: 191
+      formula.tags: 356
+      note.task_worked_on_dates: 223
+      note.links: 241
+    rowHeight: medium
+  - type: cards
+    name: Task Lists
+    filters:
+      and:
+        - file.tags.contains("task-list")
+    order:
+      - file.name
+      - aliases
+      - formula.task_list_type
+    cardSize: 350

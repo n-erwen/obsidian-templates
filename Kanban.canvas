@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"bfceed39b9771b0e","type":"group","x":-1440,"y":-140,"width":1300,"height":1660,"label":"To Do (In No Particular Order)"},
+		{"id":"e85c61a07b594d33","type":"group","x":-120,"y":-140,"width":440,"height":1660,"color":"3","label":"Do Next"},
+		{"id":"27930a8b2f0b382c","type":"group","x":340,"y":-140,"width":440,"height":1660,"color":"4","label":"In Progress"},
+		{"id":"70fa549038ab2134","type":"group","x":800,"y":-140,"width":440,"height":1660,"color":"2","label":"Blocked/Waiting"},
+		{"id":"93114111c4140cbd","type":"group","x":1260,"y":-140,"width":440,"height":1660,"color":"6","label":"Completed"},
+		{"id":"2dffc119af2956a5","type":"group","x":-1900,"y":-140,"width":440,"height":1660,"color":"5","label":"Postponed"},
+		{"id":"fe4832177c075719","type":"group","x":-2360,"y":-140,"width":440,"height":1660,"color":"1","label":"Abandoned"},
+		{"id":"ccc49748f9d13643","type":"file","file":"todo/TODO This Week.md","subpath":"#New","x":-1440,"y":-614,"width":1300,"height":409},
+		{"id":"ae4465b16e5f6811","type":"file","file":"Notes For In Progress Tasks.canvas","x":340,"y":-500,"width":440,"height":260}
+	],
+	"edges":[]
+}

@@ -1,0 +1,20 @@
+{
+  "enabledCssSnippets": [
+    "no-check-strikethrough",
+    "table",
+    "increase-width-property-name-field",
+    "hide-properties-inside-file-embed",
+    "canvas-styles",
+    "document-no-title",
+    "hide-document-sections",
+    "no-markdown-render-in-source-mode",
+    "page-wide-mode",
+    "wide-page",
+    "hide-properties-inside-embed",
+    "custom-callouts"
+  ],
+  "theme": "obsidian",
+  "baseFontSizeAction": true,
+  "baseFontSize": 14,
+  "translucency": false
+}

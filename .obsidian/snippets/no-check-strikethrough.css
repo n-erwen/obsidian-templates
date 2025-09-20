@@ -1,0 +1,9 @@
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task]:not([data-task=" "]) {
+    text-decoration:none;
+    color: var(--text-normal);
+}
+
+.task-list-item.is-checked[data-task="x"] {
+    text-decoration: none;
+    color: var(--text-normal);
+}

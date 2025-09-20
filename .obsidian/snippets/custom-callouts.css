@@ -1,0 +1,19 @@
+.callout[data-callout="task-note"] {
+    --callout-color: 90, 90, 150;
+    --callout-icon: notepad-text;
+}
+
+.callout[data-callout="task-note"] .callout-title .callout-title-inner,
+.callout[data-callout="task-note"] .callout-icon .svg-icon {
+    color: rgb(147,147,200);
+}
+
+.callout[data-callout="section"] {
+    --callout-color: 90, 90, 100;
+    --callout-icon: heading;
+}
+
+.callout[data-callout="section"] .callout-title .callout-title-inner,
+.callout[data-callout="section"] .callout-icon .svg-icon {
+    color: rgb(150, 150, 150);
+}

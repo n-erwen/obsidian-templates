@@ -1,0 +1,79 @@
+{
+  "collapse-filter": false,
+  "search": "-path:templates/ -path:/_review/",
+  "showTags": false,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#task-list/working  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#task-note",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:daily_notes ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "tag:#work-tracker",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "tag:#reminder",
+      "color": {
+        "a": 1,
+        "rgb": 13175510
+      }
+    },
+    {
+      "query": "tag:#task-list/archive",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:notes/",
+      "color": {
+        "a": 1,
+        "rgb": 5760482
+      }
+    },
+    {
+      "query": ".canvas",
+      "color": {
+        "a": 1,
+        "rgb": 3040768
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -0.2,
+  "nodeSizeMultiplier": 1.12322591145833,
+  "lineSizeMultiplier": 1.98890401633764,
+  "collapse-forces": false,
+  "centerStrength": 0.594075520833333,
+  "repelStrength": 9.14876302083333,
+  "linkStrength": 0.503824869791667,
+  "linkDistance": 190,
+  "scale": 1.1370549834427752,
+  "close": false
+}

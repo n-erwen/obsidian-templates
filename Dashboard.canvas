@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"821dc0b8b05f955c","type":"group","x":-1120,"y":-400,"width":1360,"height":1200,"label":"TODO"},
+		{"id":"bae2784c5c0c15c3","type":"group","x":-1605,"y":-1160,"width":485,"height":1961,"label":"Important Notes"},
+		{"id":"9aa0e3118ffe9c7b","type":"group","x":-1100,"y":-340,"width":620,"height":1120,"label":"This Week"},
+		{"id":"f197c6557b8a614a","type":"group","x":-1120,"y":-1160,"width":920,"height":716,"label":"Reminders"},
+		{"id":"56b068dbd179c98c","type":"group","x":255,"y":-398,"width":485,"height":1198,"label":"Other"},
+		{"id":"05b8ca502f60621f","type":"group","x":-460,"y":160,"width":680,"height":620,"label":"Later"},
+		{"id":"d5f433e994fdf76e","type":"group","x":260,"y":-1160,"width":480,"height":716,"label":"Wiki"},
+		{"id":"89d353845430677d","type":"group","x":-200,"y":-1160,"width":460,"height":716,"label":"Daily Note"},
+		{"id":"62067a4c4c46b7fd","type":"group","x":-460,"y":-340,"width":680,"height":440,"label":"Calendar"},
+		{"id":"0edb9c1f8df99db5","type":"file","file":"todo/TODO This Week.md","subpath":"#To Do","x":-1080,"y":-320,"width":580,"height":1080},
+		{"id":"d1c78e6902657559","type":"text","text":"# Place important notes in this section","x":-1580,"y":-1140,"width":440,"height":100},
+		{"id":"1e04eb2fd47e25dc","type":"text","text":"# Place reminders (and reminder files) in this section\n\n# Upcoming (\\[Month] \\[Year])\n\n# \\[Day of Week] \\[Date]\n\n- [ ] DD-MM-YY HH:MM(-HH:MM) Reminder description\n\n>[!example] Tasks due\n>(Embed links to tasks/task notes due on this date)\n\n>[!todo] Tasks to start\n>(Embed links to tasks/task notes to start today\n\n# Past Days","x":-1100,"y":-1140,"width":480,"height":480},
+		{"id":"c2726523be819c4b","type":"file","file":"todo/TODO Later.md","subpath":"#To Do","x":-440,"y":180,"width":640,"height":580},
+		{"id":"60e3857d0d6d3174","type":"text","text":"# Place daily note in this section","x":-180,"y":-1140,"width":420,"height":680},
+		{"id":"e3a7c1ea63c40cae","type":"text","text":"# Place personal wiki index file in this section","x":280,"y":-1140,"width":440,"height":680},
+		{"id":"7b773047826a6117","type":"text","text":"# Place other frequently accessed notes or canvases in this section","x":280,"y":-380,"width":440,"height":297},
+		{"id":"efb18b3ba009d1be","x":-440,"y":-320,"width":640,"height":400,"type":"text","text":"# Place Task Calendar in this section\n\n# Upcoming (\\[Month] \\[Year])\n\n## \\[Day of Week] \\[Date]\n\n- [ ] Task which can only happen on this date #task/action"}
+	],
+	"edges":[]
+}

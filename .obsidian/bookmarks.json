@@ -1,0 +1,119 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1757324112079,
+      "path": "Current Tickets.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1757067114860,
+      "path": "File Indexes.base",
+      "title": "File Indexes"
+    },
+    {
+      "type": "file",
+      "ctime": 1757324703539,
+      "path": "wiki/wiki index.md",
+      "title": "wiki index"
+    },
+    {
+      "type": "group",
+      "ctime": 1757324265730,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1756905185822,
+          "path": "notes/MMH-2850"
+        },
+        {
+          "type": "folder",
+          "ctime": 1757324208585,
+          "path": "notes/MMH-2723"
+        }
+      ],
+      "title": "Ticket notes"
+    },
+    {
+      "type": "group",
+      "ctime": 1757066112368,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1757066699430,
+          "path": "Eisenhower Matrix.canvas",
+          "title": "Action Priority Matrix"
+        },
+        {
+          "type": "file",
+          "ctime": 1757067277626,
+          "path": "Current Tickets.canvas",
+          "title": "Current Tickets"
+        },
+        {
+          "type": "file",
+          "ctime": 1757066685963,
+          "path": "Dashboard.canvas",
+          "title": "Dashboard"
+        },
+        {
+          "type": "file",
+          "ctime": 1757323577858,
+          "path": "Kanban.canvas",
+          "title": "Kanban"
+        },
+        {
+          "type": "file",
+          "ctime": 1757068394355,
+          "path": "Notes For In Progress Tasks.canvas",
+          "title": "Notes for In Progress Tasks"
+        }
+      ],
+      "title": "Canvases"
+    },
+    {
+      "type": "group",
+      "ctime": 1757065151788,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1757065454692,
+          "path": "Dashboard.canvas",
+          "title": "TODO Canvas"
+        },
+        {
+          "type": "file",
+          "ctime": 1757068470484,
+          "path": "Notes For In Progress Tasks.canvas",
+          "title": "Notes for In Progress Tasks"
+        },
+        {
+          "type": "file",
+          "ctime": 1757065405362,
+          "path": "todo/TODO Uncategorized.md",
+          "title": "To Do (Uncategorized)"
+        },
+        {
+          "type": "file",
+          "ctime": 1757093312976,
+          "path": "todo/TODO This Week.md",
+          "title": "TODO Today"
+        },
+        {
+          "type": "file",
+          "ctime": 1757322926780,
+          "path": "monthly_notes/task calendars/September 2025.md",
+          "subpath": "#Upcoming (Sep 2025)",
+          "title": "TODO September 2025"
+        },
+        {
+          "type": "file",
+          "ctime": 1757065216329,
+          "path": "todo/TODO Later.md",
+          "title": ""
+        }
+      ],
+      "title": "TODO"
+    }
+  ]
+}

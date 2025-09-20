@@ -1,0 +1,263 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a653cc74edf014e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0e6ac54d0a95c0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "todo/TODO This Week.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "TODO This Week"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "055d278b555e77ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a5151e024d2b7f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "637cf20e28c5cdb8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9a3dc28a837c63db",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "mmh",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "da8e3df9e16031a0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "f8d9b48110a46538",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "File Indexes.base",
+                "viewName": "Curated"
+              },
+              "icon": "lucide-layout-grid",
+              "title": "File Indexes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 307.5024719238281
+  },
+  "right": {
+    "id": "5f10b50840e498e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f0f6ea129a0ae07",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcaab11ad44ce89c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "94fe870fd1906161",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "todo/task notes/2025-09-14/task-20250914225548 can email addresses with plus be created in salesforce.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for task-20250914225548 can email addresses with plus be created in salesforce"
+            }
+          },
+          {
+            "id": "6275f775cd906b7e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "35996067de202713",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d7f236dfe8978339",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "81fb3e4198be4f3c",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "todo/task notes/2025-09-14/task-20250914173816 MMH-2723 validate updated DXC data refresher query.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for task-20250914173816 MMH-2723 validate updated DXC data refresher query"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 271.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "zk-prefixer:Create new unique note": false
+    }
+  },
+  "active": "b0e6ac54d0a95c0d",
+  "lastOpenFiles": [
+    "todo/TODO Later.md",
+    "todo/TODO Break down into next action(s).md",
+    "todo/TODO This Week.md",
+    "Dashboard.canvas",
+    "Eisenhower Matrix.canvas",
+    "templates/work tracker template.md",
+    "templates/todo emoji tag legend.md",
+    "templates/todo archive template.md",
+    "templates/task note callout.md",
+    "templates/more note properties.md",
+    "templates/hourly activities template.md",
+    "templates/task note template.md",
+    "templates/daily note template.md",
+    "templates/barebones unique note template.md",
+    "Pomodoro Timer",
+    "Task Notes Views.base",
+    "File Indexes.base",
+    "templates",
+    "Kanban.canvas",
+    "Notes For In Progress Tasks.canvas",
+    "mapping out links in category query to filter subset.canvas",
+    "TODO Break down into next action(s).md",
+    "TODO Later.md",
+    "todo",
+    "notes/message to send when Ive run out of work to do.txt",
+    "_inbox/task-20250917161729 prepare for sprint demo.md",
+    "todo/task notes/2025-09-12/task-20250912090400 add nectar linkage field to dxc data refresher query.md",
+    "work_trackers/klog (today)/work-focused.klg.sb-e03af298-WQkujV",
+    "work_trackers/klog (today) alias",
+    "Notes To Self.md",
+    "todo/task notes/2025-09-14/task-20250914173816 MMH-2723 validate updated DXC data refresher query.md",
+    "todo/task notes/archived/Sep 2025/2025-09-12/task-20250912085730 investigate missing email jobs adw_stage.md",
+    "todo/task notes/2025-09-14/task-20250914160643 create confluence page MMH-2850 migrate subscriber key proxy bosun step by step breakdown.md",
+    "todo/task notes/2025-09-14/task-20250914225548 can email addresses with plus be created in salesforce.md",
+    "todo/task notes/2025-09-14/task-20250914192937 accept meta events manager invite create account.md",
+    "todo/task notes/2025-09-14/task-20250914192108 mmh-2850 create high level order of stories.md",
+    "todo/task notes/2025-09-14/task-20250914191518 create skeleton tickets for stories.md",
+    "todo/task notes/2025-09-14/task-20250914191433 fill acceptance criteria tickets bosun onboarding service configuration.md",
+    "Task Notes Views.yaml",
+    "task notes/2025-09-17",
+    "attachments/Screenshot 2025-09-15 at 00.32.24.png",
+    "notes/MMH-2850/canvases/MMH-2850 Migrate Subscriber Key Proxy to Bosun (epic).canvas",
+    "Fires.canvas",
+    "notes/MMH-2850/canvases/MMH-2850 epic planning.canvas",
+    "Thoughts.canvas",
+    "Current Tickets.canvas",
+    "images/Screenshot 2025-08-14 at 16.47.39.png"
+  ]
+}

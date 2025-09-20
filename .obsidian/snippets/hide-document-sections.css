@@ -1,0 +1,11 @@
+.document--hide-title .inline-title {
+  display: none;
+}
+
+.document--hide-properties .metadata-container {
+  display: none !important;
+}
+
+.internal-embed[alt*="no-title"] .markdown-embed-title {
+  display: none !important;
+} 

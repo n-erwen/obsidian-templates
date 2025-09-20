@@ -1,0 +1,121 @@
+views:
+  - type: cards
+    name: Curated
+    filters:
+      or:
+        - file.name == "Dashboard.canvas"
+        - file.name == "Eisenhower Matrix.canvas"
+        - file.path == "daily_notes/" + now().format("YYYY-MM-DD") + ".md"
+        - file.name == "Current Tickets.md"
+        - file.name == "Kanban.canvas"
+        - file.name == "Notes For In Progres Tasks.canvas"
+        - file.name == "Fires.canvas"
+        - file.path == "mind_maps/TODO.mm"
+        - file.basename == "Pomodoro timer"
+        - file.name == "Fires.mm"
+        - file.path == "todo/TODO This Week.md"
+        - file.path == "todo/TODO Later.md"
+        - file.path == "wiki/wiki index.md"
+        - file.folder.startsWith("monthly_notes/reminders")
+        - file.path == "Notes To Self.md"
+    order:
+      - file.name
+      - file.path
+    sort:
+      - property: file.name
+        direction: ASC
+    cardSize: 290
+  - type: cards
+    name: Meta Index
+    filters:
+      and:
+        - file.path != "File Indexes.base"
+        - or:
+            - file.tags.containsAll("index")
+            - file.fullname.contains("index")
+    order:
+      - file.path
+      - aliases
+    sort:
+      - property: file.path
+        direction: ASC
+    cardSize: 290
+  - type: cards
+    name: Canvases
+    filters:
+      and:
+        - file.ext == "canvas"
+    order:
+      - file.basename
+      - file.path
+    sort:
+      - property: file.path
+        direction: ASC
+    cardSize: 360
+  - type: table
+    name: Inbox
+    filters:
+      and:
+        - file.folder.startsWith("_inbox")
+    order:
+      - file.name
+      - file.path
+      - file.ctime
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.fullname
+        direction: ASC
+    cardSize: 500
+    columnSize:
+      file.name: 409
+      file.path: 393
+    rowHeight: medium
+  - type: cards
+    name: Mind Maps
+    filters:
+      or:
+        - file.ext == "mm"
+        - file.folder.startsWith("mind_maps")
+    order:
+      - file.name
+      - file.path
+    cardSize: 360
+  - type: cards
+    name: Recently Edited Files
+    filters:
+      and:
+        - file.mtime >= now().format("YYYY-MM-DD")
+    sort:
+      - property: file.mtime
+        direction: DESC
+    cardSize: 360
+  - type: cards
+    name: Templates
+    filters:
+      and:
+        - file.folder.startsWith("templates")
+    order:
+      - file.name
+      - file.path
+    cardSize: 350
+  - type: cards
+    name: Today (Excluding Task Notes)
+    filters:
+      and:
+        - '!file.path.startsWith("templates")'
+        - or:
+            - file.basename.contains(now().format("YYYY-MM-DD"))
+            - file.basename.contains(now().format("DD-MM-YY"))
+            - modified_on_dates.contains(now().format("YYYY-MM-DD"))
+            - file.basename.contains(now().format("MMMM YYYY"))
+            - file.basename == "TODO Today"
+            - file.ctime >= now().format("YYYY-MM-DD")
+        - "!/task-\\d{4}\\d{2}\\d{2}/.matches(file.basename)"
+    order:
+      - file.basename
+      - file.path
+    sort:
+      - property: file.fullname
+        direction: ASC
+    cardSize: 360

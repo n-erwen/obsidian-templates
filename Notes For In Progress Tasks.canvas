@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"0233911806da6534","type":"text","text":"# <span style=\"color: green;\">In Progress Tasks</span>","x":160,"y":800,"width":280,"height":60},
+		{"id":"ed242dd26bb79a77","type":"text","text":">[!info] This is a canvas where you can display tasks/task notes and link their respective notes","x":92,"y":620,"width":416,"height":111},
+		{"id":"1c7edeb3e62eeb53","type":"text","text":">[!info] Yellow-colored cards denote tasks which are to be done next (see also [[Kanban.canvas|Kanban]])","x":-324,"y":1020,"width":416,"height":112,"color":"3"},
+		{"id":"4feb11a574fbd9ff","type":"text","text":">[!info] Green-colored cards denote tasks which are in progress (see also [[Kanban.canvas|Kanban]])","x":112,"y":1020,"width":416,"height":111,"color":"4"},
+		{"id":"d1567ad14f7f0529","type":"text","text":">[!info] Orange-colored cards denote tasks which were started but are currently blocked (see also [[Kanban.canvas|Kanban]])","x":548,"y":1020,"width":416,"height":109,"color":"2"},
+		{"id":"26c090fbe3934295","type":"text","text":">[!info] Delete completed/postponed/abandoned tasks from this canvas","x":-360,"y":800,"width":416,"height":85,"color":"6"}
+	],
+	"edges":[
+		{"id":"7f1d1524f093ed11","fromNode":"0233911806da6534","fromSide":"top","toNode":"ed242dd26bb79a77","toSide":"bottom"},
+		{"id":"e7859827e373a6f3","fromNode":"0233911806da6534","fromSide":"bottom","toNode":"1c7edeb3e62eeb53","toSide":"top"},
+		{"id":"506abb56ceefd6a5","fromNode":"0233911806da6534","fromSide":"bottom","toNode":"4feb11a574fbd9ff","toSide":"top"},
+		{"id":"37ac6900a8517cea","fromNode":"0233911806da6534","fromSide":"bottom","toNode":"d1567ad14f7f0529","toSide":"top"},
+		{"id":"408d34991a830584","fromNode":"0233911806da6534","fromSide":"left","toNode":"26c090fbe3934295","toSide":"right"}
+	]
+}
